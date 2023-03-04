@@ -1,0 +1,165 @@
+body{
+    background-color: black;
+}
+h1{
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 1.08px;
+    color:white;
+}
+/* .container{
+    margin: 20px 0 20px 0 ;
+} */
+.navbar{
+    width: 100%;
+    position: sticky;
+    top:0;
+    
+}
+.container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.navbar-brand{
+    width: 90px;
+}
+
+.navbar-nav{
+    color:white;
+}
+.nav-link{
+    text-decoration: none;
+    color:white;
+}
+.buttons{
+    float: right;
+}
+.sign{
+    border-radius: 32px;
+}
+.navbar a {
+    font-weight: 600;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.work__text{
+    justify-content: end;
+    text-align: end;
+}
+
+.hero__img{
+    height: 744px;
+    background-image: url('img/hero.png');
+}
+.text__block{
+    margin: 10px 0 10px 0;
+}
+
+.card-img-top{
+    width: 220px;
+    height: 220px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    border-radius: 12px;
+    
+    height: auto;
+}
+
+.img__container{
+    background-image: url('img/IMAGE\ \(5\).png');
+    width: 100px;
+    height: 100%;
+    background-repeat: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-footer__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+.hero-footer__text h1{
+    margin-bottom: 70px;
+}
+
+.hero__img{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* .hero__img h1{
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    
+
+    letter-spacing: 1.08px;
+    color:white;
+} */
+
+.img__container{
+    background-image: url('img/IMAGE\ \(5\).png');
+    width: 100%;
+    height: 700px;
+}
+
+
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.footer__item:first-child{
+    color:white;
+    font-size: 20px;
+}
+.footer__item{
+    color: #A6A8AD;
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+
+.footer__nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+.footer__block-1{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    margin: 0;
+    
+}
+.footer__block-2{
+    display: flex;
+}
+
+.social__list{
+
+}
+.social__item{
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+
