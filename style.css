@@ -105,6 +105,9 @@ h1{
     flex-direction: column;
     
 }
+.card__img{
+    max-width: 90%;
+}
 
 /* .hero__img h1{
     font-weight: 400;
@@ -118,7 +121,8 @@ h1{
 
 .img__container{
     background-image: url('img/IMAGE\ \(5\).png');
-    width: 100%;
+    max-width: 100%;
+    min-width: 90%;
     height: 700px;
 }
 
